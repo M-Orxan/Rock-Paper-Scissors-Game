@@ -102,6 +102,20 @@ namespace Rock_Paper_Scissors_Game
                 this.Controls.Add(labelForComputerChoices);
                 labels.Add(labelForComputerChoices);
 
+                if (playerChoice == "Rock" && computerChoice == "Scissors" || playerChoice == "Paper" && computerChoice == "Rock" || playerChoice == "Scissors" && computerChoice == "Paper")
+                {
+                    labelForPlayerChoices.ForeColor = Color.DarkGreen;
+                   
+
+
+                }
+                else if (computerChoice == "Rock" && playerChoice == "Scissors" || computerChoice == "Paper" && playerChoice == "Rock" || computerChoice == "Scissors" && playerChoice == "Paper")
+                {
+                    labelForComputerChoices.ForeColor = Color.DarkGreen;
+                }
+
+
+
                 buttom += 30;
 
 
