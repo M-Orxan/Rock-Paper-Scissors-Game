@@ -19,7 +19,7 @@ namespace Rock_Paper_Scissors_Game
 
         private void showRulesbtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("1. Rock beats scissors and loses to paper.\n\n2. Scissors beat paper but loses to rock.\n\n3. Paper beats rock, but loses to scissors.\n\nGame ends when either player or computer reaches to 5.");
+            MessageBox.Show("1. Rock beats scissors and loses to paper.\n\n2. Scissors beat paper but loses to rock.\n\n3. Paper beats rock, but loses to scissors.\n\nGame ends when either player or computer reaches to 3.");
         }
 
         string playerChoice;
